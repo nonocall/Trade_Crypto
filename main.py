@@ -10,12 +10,12 @@ def main():
     print(" BTC Multi-Timeframe Reversal & SFP Backtester ".center(60, "="))
     print("=" * 60)
     
-    symbol = 'BTCUSDT'
+    symbol = 'BNBUSDT'
     ltf_interval = '15m'
     htf_interval = '2h'
     total_candles = 4000  # ~41 days of 15m data
     proxy = 'http://127.0.0.1:7078'
-    cache_file = 'btc_15m_historical.csv'
+    cache_file = 'bnb_15m_historical.csv'
     
     # 1. Load or Fetch BTC 15m Data
     print(f"\n[1/5] Retrieving 15m historical price data for {symbol}...")
